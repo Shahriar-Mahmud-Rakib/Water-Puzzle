@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Water Sort Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-header">
+    <h1 id="level-title">Water Sort Puzzle - Level 1</h1>
+    <div class="game-controls">
+      <button onclick="togglePause()" id="pause-btn">Pause</button>
+      <span id="move-counter">Moves: 0</span>
+      <button onclick="resetCurrentLevel()">Reset</button>
+    </div>
+  </div>
+
+  <div id="game-container"></div>
+
+  <audio id="pour-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
